@@ -8,6 +8,7 @@ Get-Date
 ```
 
 ``` Powershell
+# As admin:
 (Get-BitLockerVolume -MountPoint C).KeyProtector
 ```
 
